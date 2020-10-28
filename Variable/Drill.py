@@ -2,11 +2,10 @@
 This outline will help solidify concepts from the Variables lesson.
 Fill in this outline as the instructor goes through the lesson.
 '''
-
 #1)
 #Make an example variable of each of the types of variables (int, float, 
 #string, boolean and list):
-
+ 
 #Integer
 
 b = 1
