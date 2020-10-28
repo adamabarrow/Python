@@ -66,6 +66,8 @@ varO = varT[1]
 varN = "Adama"
 
 varH = varN[0]
+print(varH)
+
 
 #7)
 #Print out ONE of any of the variables you have created so far:
