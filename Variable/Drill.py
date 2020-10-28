@@ -1,10 +1,7 @@
-"""
+'''
 This outline will help solidify concepts from the Variables lesson.
 Fill in this outline as the instructor goes through the lesson.
-"""
-"Created on Oct 27, 2020"
-
-"@author: ITAUser"
+'''
 
 #1)
 #Make an example variable of each of the types of variables (int, float, 
@@ -66,8 +63,6 @@ varO = varT[1]
 varN = "Adama"
 
 varH = varN[0]
-print(varH)
-
 
 #7)
 #Print out ONE of any of the variables you have created so far:
@@ -79,3 +74,4 @@ print(varT)
 #Make a variable of any type, with one of the common SYNTAX errors
 
 a == A
+
