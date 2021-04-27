@@ -7,10 +7,10 @@ EXAMPLE TASK:
 #    you just created and decrements the variable by one each time through
 #    the loop. Meanwhile, make the loop run until the variable you created 
 #    equals 0.
-i = 3;
-while i > 0:
-    print(i)
-    i -= 1
+#i = 3;
+#while i > 0:
+#    print(i)
+#    i -= 1
 
 '''
 END OF EXAMPLE
@@ -26,31 +26,58 @@ START HERE
 #    the loop. Meanwhile, make the loop run until the variable you created 
 #    equals 1.
 
-
-
+a = 4
+while(a > 1):
+    print(a)
+    a = a - 1
+    
 #2) Declare a variable set to 14. Make a while loop that prints the variable 
 #    you just created and increments the variable by one each time through
 #    the loop. Meanwhile, make the loop run until the variable you created 
 #    equals 20.
 
+b = 14 
+while(b < 20):
+    print(b)
+    b = b + 1
+
 #3) Declare a variable set to 55. Make a while loop that prints the variable 
 #   you just created. Then make an if statement that makes the loop break when
 #   the variable is equal to 50. 
 
+c = 55
+while(c > 0):
+    print(c)
+    c = c - 1
+    if(c == 50):
+        break 
 
 '''For Loops'''
 #4) Create a list named sports. Put three sports into the list. Create
 #   a for loop that prints each sport in the list
 
+sports = ["Basketball", "Football", "Soccer"]
+for x in sports:
+    print(x)
+
 #5) Create a for loop that loops through each letter in a string of one of your
 #   favorite songs. Each iteration should print should a letter of the word. 
 
+song = "Ski"
+for y in song:
+    print(y)
+
 #6) Create a list named movies. Put five of your favorite movies into the list.
-#   However, make sure one of the movies is Avatar. 
+#   However, make sure one of the movies is Avatar.
+
+movies = ["Coming to America", "Rush Hour", "Home Alone", "Avatar", "Black Panther"]
+ 
 #   Create a for loop that iterates over the list. In the loop print the movie
 #   being looped over, but create an if statement that breaks out of the 
 #   loop if it is Avatar.
 
-
-
-
+for z in movies:
+    print(z)
+    if(z == "Avatar"):
+        break
+    
